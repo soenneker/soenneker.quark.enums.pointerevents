@@ -1,7 +1,7 @@
 ﻿using Intellenum;
 using Soenneker.Quark.Enums.GlobalKeywords;
 
-namespace Soenneker.Quark.Enums.PointerEvents;
+namespace Soenneker.Quark;
 
 /// <summary>
 /// Typed values for the CSS pointer-events property in .NET enumeration form.
