@@ -15,7 +15,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\Soenneker.Quark.Enums.PointerEvents.csproj" />
+        <ProjectReference Include="..\..\src\Soenneker.Quark.Enums.PointerEvents\Soenneker.Quark.Enums.PointerEvents.csproj" />
     </ItemGroup>
 
     <ItemGroup>

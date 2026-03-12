@@ -4,10 +4,11 @@
   </Folder>
   <Folder Name="/.github/workflows/">
     <File Path=".github/workflows/build-and-test.yml" />
+    <File Path=".github/workflows/codeql.yml" />
     <File Path=".github/workflows/publish-package.yml" />
   </Folder>
   <Folder Name="/src/">
-    <Project Path="src/Soenneker.Quark.Enums.PointerEvents.csproj" />
+    <Project Path="src/Soenneker.Quark.Enums.PointerEvents/Soenneker.Quark.Enums.PointerEvents.csproj" />
   </Folder>
   <Folder Name="/test/">
     <Project Path="test/Soenneker.Quark.Enums.PointerEvents.Tests/Soenneker.Quark.Enums.PointerEvents.Tests.csproj" />
