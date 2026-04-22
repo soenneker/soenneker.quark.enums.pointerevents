@@ -56,7 +56,7 @@ jobs:
         run: dotnet build test/Soenneker.Quark.Enums.PointerEvents.Tests/Soenneker.Quark.Enums.PointerEvents.Tests.csproj --configuration Release --no-restore --verbosity minimal
 
       - name: Test
-        run: dotnet test test/Soenneker.Quark.Enums.PointerEvents.Tests/Soenneker.Quark.Enums.PointerEvents.Tests.csproj --configuration Release --no-build --no-restore --verbosity normal
+        run: dotnet test --project test/Soenneker.Quark.Enums.PointerEvents.Tests/Soenneker.Quark.Enums.PointerEvents.Tests.csproj --configuration Release --no-build --no-restore --verbosity normal
 
 
       - name: Restore library
