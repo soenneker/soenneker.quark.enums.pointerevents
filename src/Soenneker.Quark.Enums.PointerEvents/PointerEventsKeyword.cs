@@ -9,6 +9,12 @@ namespace Soenneker.Quark;
 [IncludeEnumValues(typeof(GlobalKeyword))]
 public sealed partial class PointerEventsKeyword
 {
+    /// <summary>
+    /// The none.
+    /// </summary>
     public static readonly PointerEventsKeyword None = new("none");
+    /// <summary>
+    /// The auto.
+    /// </summary>
     public static readonly PointerEventsKeyword Auto = new("auto");
 }
